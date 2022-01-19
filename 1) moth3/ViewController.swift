@@ -14,6 +14,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func Click(_ sender: Any) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "ContactsViewController") as! ContactsViewController
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    @IBAction func todoClick(_ sender: Any) {
+        let controller2 = storyboard?.instantiateViewController(withIdentifier: "ListViewController") as! ListViewController
+        self.navigationController?.pushViewController(controller2, animated: true)
+    }
+    
+    @IBAction func namesList(_ sender: Any) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "Name") as! NameViewController
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
 }
 

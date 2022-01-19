@@ -13,17 +13,23 @@
 		E43D123E27955BFF00DC3C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43D123C27955BFF00DC3C95 /* Main.storyboard */; };
 		E43D124027955C0200DC3C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43D123F27955C0200DC3C95 /* Assets.xcassets */; };
 		E43D124327955C0200DC3C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43D124127955C0200DC3C95 /* LaunchScreen.storyboard */; };
+		E43D124B279560E900DC3C95 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43D124A279560E900DC3C95 /* ContactsViewController.swift */; };
+		E43D124D2795847A00DC3C95 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43D124C2795847A00DC3C95 /* ListViewController.swift */; };
+		E4EAE0FA2797584000202085 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EAE0F92797584000202085 /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E43D123327955BFF00DC3C95 /* 1) moth3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1) moth3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E43D123627955BFF00DC3C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E43D123627955BFF00DC3C95 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E43D123827955BFF00DC3C95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E43D123A27955BFF00DC3C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E43D123D27955BFF00DC3C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E43D123F27955C0200DC3C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43D124227955C0200DC3C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43D124427955C0200DC3C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43D124A279560E900DC3C95 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		E43D124C2795847A00DC3C95 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		E4EAE0F92797584000202085 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				E43D123F27955C0200DC3C95 /* Assets.xcassets */,
 				E43D124127955C0200DC3C95 /* LaunchScreen.storyboard */,
 				E43D124427955C0200DC3C95 /* Info.plist */,
+				E43D124A279560E900DC3C95 /* ContactsViewController.swift */,
+				E43D124C2795847A00DC3C95 /* ListViewController.swift */,
+				E4EAE0F92797584000202085 /* NameViewController.swift */,
 			);
 			path = "1) moth3";
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E43D123B27955BFF00DC3C95 /* ViewController.swift in Sources */,
+				E43D124B279560E900DC3C95 /* ContactsViewController.swift in Sources */,
 				E43D123727955BFF00DC3C95 /* AppDelegate.swift in Sources */,
+				E43D124D2795847A00DC3C95 /* ListViewController.swift in Sources */,
 				E43D123927955BFF00DC3C95 /* SceneDelegate.swift in Sources */,
+				E4EAE0FA2797584000202085 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
